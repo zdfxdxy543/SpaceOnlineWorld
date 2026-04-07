@@ -1,0 +1,24 @@
+INCIDENT REPORT: STRANGE OBSERVATIONS AT THE OLD FACTORY
+
+Date of Report: October 26, 2003
+Reporting Officer: Archivist J. Simmons
+Case Reference: OF-2003-114
+Classification: INTERNAL USE ONLY
+
+--- TIMESTAMPED OBSERVATIONS ---
+
+- 2003-10-22, 23:45: Security patrol (Officer R. Davies) reports flickering blue-white lights in the main assembly bay windows. No authorized personnel on site. Lights described as "pulsing, not like normal fluorescents." Attempted radio check with dispatch experienced brief static burst. Lights ceased upon approach to main entrance.
+
+- 2003-10-23, 03:10: Motion sensor triggered in the old administrative wing (Sector C). Visual inspection via external camera showed no movement. Sensor reset after 2 minutes. Logs show no prior malfunction history.
+
+- 2003-10-24, 02:30: Local resident (Mrs. E. Gable, 42 Maple St.) phoned in a complaint regarding "low humming" and "metal scraping sounds" emanating from the property. Patrol dispatched at 02:45 found perimeter gates secure. No audible anomalies detected by officers.
+
+- 2003-10-25, 22:15: Thermal imaging flyover (contractor: Aerial Survey Inc.) indicated a persistent heat signature in the sub-basement area. Temperature reading approximately 12°C above ambient background. No known heat sources active in that sector. Power to the building remains officially disconnected since 1998.
+
+- 2003-10-26, 01:00: Digital surveillance system recorded 47 seconds of sustained, high-frequency audio (estimated 18-22 kHz) on the microphone at the loading dock. Event coincided with a temporary voltage spike detected on the main grid feed line, though the factory's meter is inactive. Audio file attached: OF-2003-114-A1.wav
+
+--- ASSESSMENT ---
+
+The pattern of events suggests coordinated activity within the derelict factory structure, not attributable to vagrants or routine equipment failure. The nature of the phenomena—electromagnetic interference, anomalous heat, ultrasonic audio—points to the possible operation of specialized, high-energy equipment. The site's history of industrial chemical storage and unconfirmed decommissioning records from the late 90s raises concerns about unauthorized research or salvage operations. Recommend escalation to a Level 2 investigation, including a coordinated physical sweep with environmental sensors and a review of all utility access logs for the past six months. The possibility of data exfiltration via legacy infrastructure cannot be ruled out.
+
+--- END REPORT ---

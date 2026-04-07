@@ -1,0 +1,277 @@
+{
+  "document_id": "onlineworld-ai-web-generation-playbook-v1",
+  "target_audience": "autonomous coding agents",
+  "project": "OnlineWorld",
+  "goals": [
+    "Generate a new web page feature end-to-end",
+    "Implement backend + frontend contracts",
+    "Integrate feature into scheduler capability system",
+    "Prevent contract drift between API envelope and frontend state shape"
+  ],
+  "architecture_map": {
+    "backend": {
+      "container": "backend/app/container.py",
+      "api_endpoints": "backend/app/api/v1/endpoints/*.py",
+      "schemas": "backend/app/schemas/*.py",
+      "services": "backend/app/services/*.py",
+      "repositories": "backend/app/repositories/*.py",
+      "sqlite_impl": "backend/app/infrastructure/db/*.py"
+    },
+    "simulation": {
+      "protocol": "backend/app/simulation/protocol.py",
+      "workflow_base": "backend/app/simulation/tools/workflow.py",
+      "tool_registry": "backend/app/simulation/tool_registry.py",
+      "scheduler": "backend/app/simulation/scheduler.py",
+      "planner": "backend/app/simulation/planner.py",
+      "tool_pipelines": [
+        "backend/app/simulation/tools/netdisk_pipeline.py",
+        "backend/app/simulation/tools/forum_pipeline.py",
+        "backend/app/simulation/tools/news_pipeline.py",
+        "backend/app/simulation/tools/p2pstore_pipeline.py"
+      ]
+    },
+    "frontend": {
+      "router": "frontend/src/router/index.js",
+      "api_wrappers": [
+        "frontend/src/forum/api/*.js",
+        "frontend/src/news/api/*.js",
+        "frontend/src/p2pstore/api/*.js"
+      ],
+      "views": [
+        "frontend/src/forum/views/*.vue",
+        "frontend/src/news/views/*.vue",
+        "frontend/src/p2pstore/views/*.vue"
+      ],
+      "site_shell": "frontend/src/netdisk/NetdiskApp.vue"
+    }
+  },
+  "execution_algorithm": [
+    {
+      "phase": "P1_contract_design",
+      "steps": [
+        "Define user journey and permission model",
+        "Define request/response schema fields",
+        "Define identifier + credential strategy (e.g., resource_id + access_code)",
+        "Define error code matrix (404 invalid credential, 500 storage issue)"
+      ],
+      "outputs": [
+        "Schema classes under backend/app/schemas",
+        "Endpoint signatures under backend/app/api/v1/endpoints"
+      ]
+    },
+    {
+      "phase": "P2_backend_implementation",
+      "steps": [
+        "Add abstract repository methods in backend/app/repositories",
+        "Implement SQLite methods in backend/app/infrastructure/db",
+        "Add business orchestration in backend/app/services",
+        "Expose API routes in backend/app/api/v1/endpoints",
+        "Keep validation and expiration checks in Service layer"
+      ],
+      "invariants": [
+        "No business logic in endpoint beyond parameter parsing and HTTP mapping",
+        "Repository returns domain records, not HTTP objects",
+        "Service owns security checks"
+      ]
+    },
+    {
+      "phase": "P3_frontend_implementation",
+      "steps": [
+        "Add API wrappers in frontend/src/forum/api",
+        "Unwrap response envelope to exact page state shape (e.g., data.articles, data.categories)",
+        "Add or update page view in frontend/src/forum/views",
+        "Connect route in frontend/src/router/index.js",
+        "Ensure page state machine: form/loading/error/data",
+        "Use server-authorized download URL generation",
+        "Verify ID semantics in UI labels and params match backend (share_id vs resource_id)"
+      ],
+      "ui_contract": {
+        "required_states": [
+          "idle",
+          "loading",
+          "success",
+          "error"
+        ],
+        "required_controls": [
+          "credential input",
+          "fetch/open button",
+          "download button"
+        ]
+        ,
+        "required_contract_checks": [
+          "If backend returns object envelope, frontend must map to arrays/fields explicitly",
+          "If UI says file ID is share_id, endpoint parser must support share_id path",
+          "If route query prefill exists (e.g., ?share=), input model must consume it"
+        ]
+      }
+    },
+    {
+      "phase": "P4_scheduler_integration",
+      "steps": [
+        "Define capability in workflow.capability -> CapabilitySpec",
+        "Implement execute_facts() to persist immutable facts first",
+        "If generation needed: implement build_generation_request()",
+        "Implement validate_generated_content() with required-fields + alias mapping",
+        "Implement publish() to finalize state and return output keys",
+        "Register tool executor in container ToolRegistry",
+        "Ensure planner can emit step payload using $step-N.output.key references",
+        "Add key alias in StoryScheduler if historical names differ"
+      ],
+      "required_output_keys": [
+        "resource_id",
+        "share_id",
+        "access_code"
+      ]
+    },
+    {
+      "phase": "P5_verification",
+      "steps": [
+        "Run backend import smoke-check",
+        "Run frontend build",
+        "Run scheduler scenario end-to-end",
+        "Inspect scheduler report for consistency_check_failed/unresolved_reference",
+        "Confirm UI flow matches permission model"
+      ]
+    }
+  ],
+  "scheduler_adapter_template": {
+    "capability_spec": {
+      "name": "<site>.<action>",
+      "site": "<site>",
+      "description": "<what this action does>",
+      "input_schema": {
+        "<field>": "<type>"
+      },
+      "read_only": false
+    },
+    "workflow_methods": [
+      "execute_facts(request)",
+      "build_generation_request(request, fact_result)",
+      "validate_generated_content(request, fact_result, generated_content)",
+      "publish(request, fact_result, validation_result)"
+    ],
+    "result_requirements": {
+      "fact_output": [
+        "ids required by downstream steps"
+      ],
+      "generation_context": [
+        "fields needed by LLM prompt"
+      ],
+      "publication_output": [
+        "canonical ids for scheduler references"
+      ]
+    }
+  },
+  "common_failures_and_repairs": [
+    {
+      "failure": "news page renders empty though backend has articles",
+      "cause": "frontend treats response envelope object as article array",
+      "repair": "map API wrapper return to data.articles/data.categories/data.articles(hot) before view usage"
+    },
+    {
+      "failure": "UI asks for share_id but backend file endpoint resolves only resource_id",
+      "cause": "ID semantic mismatch between product copy and service parser",
+      "repair": "parse as share_id first then fallback resource_id for compatibility"
+    },
+    {
+      "failure": "unresolved_reference on file_id",
+      "cause": "downstream payload requests file_id but upstream emits resource_id",
+      "repair": "add alias map in StoryScheduler._REFERENCE_KEY_ALIASES"
+    },
+    {
+      "failure": "consistency_check_failed missing file_content",
+      "cause": "LLM returned alternative key (content/body/text)",
+      "repair": "add alias resolution in validate_generated_content()"
+    },
+    {
+      "failure": "LLM echoes request envelope",
+      "cause": "prompt not explicit about exact output keys",
+      "repair": "capability-specific prompt with strict field contract"
+    },
+    {
+      "failure": "Vue Invalid end tag",
+      "cause": "SFC file got duplicated template/style blocks",
+      "repair": "reset to single script+template+style block"
+    },
+    {
+      "failure": "p2pstore endpoint import fails at startup",
+      "cause": "endpoint depends on undefined container injector (e.g., get_p2pstore_service not implemented)",
+      "repair": "align endpoint dependency acquisition with current container pattern (request.app.state.container.<service>)"
+    },
+    {
+      "failure": "FastAPI SyntaxError: parameter without a default follows parameter with a default",
+      "cause": "function signature places Request parameter after Query/default parameters",
+      "repair": "move non-default Request parameter before all default-valued parameters"
+    },
+    {
+      "failure": "p2pstore capability visible but execution unstable",
+      "cause": "create_product input lacks allowed category constraints and missing default seller/category normalization",
+      "repair": "expose allowed_categories in CapabilitySpec input_schema and validate/normalize category + seller_id in execute_facts()"
+    },
+    {
+      "failure": "security bypass on file read/download",
+      "cause": "endpoint does not require access_code",
+      "repair": "enforce resource_id + access_code in service validation path"
+    }
+  ],
+  "low_capability_agent_guardrails": {
+    "must_do_before_submit": [
+      "Print one sample backend JSON response and verify wrapper return shape matches page expectations",
+      "Run one negative credential test and one success test for protected read/download",
+      "Cross-check UI field names, endpoint path params, and schema keys are consistent",
+      "For scheduler-integrated features, confirm output keys are referenced by downstream steps",
+      "For p2pstore-like sites, run both write capability (generate/publish path) and read capability to ensure end-to-end schedulability"
+    ],
+    "forbidden_shortcuts": [
+      "Do not bind raw response object directly to v-for expecting array",
+      "Do not change UI wording to file_id/share_id without backend parser update",
+      "Do not bypass service-layer credential checks in endpoint code"
+    ]
+  },
+  "definition_of_done": {
+    "backend": [
+      "endpoint returns expected schema",
+      "credential checks enforced",
+      "storage read/write path stable"
+    ],
+    "frontend": [
+      "route reachable",
+      "all state transitions handled",
+      "download action works with credentials",
+      "API envelope is unwrapped to view model without implicit assumptions"
+    ],
+    "scheduler": [
+      "new capability registered in ToolRegistry",
+      "planner can use capability",
+      "run report status success or explainable failure"
+    ],
+    "ci_like_checks": [
+      "frontend npm run build passes",
+      "backend import smoke-check passes"
+    ]
+  },
+  "recommended_command_sequence": {
+    "backend_smoke": [
+      "Set-Location E:\\Related_Github_Project\\OnlineWorld",
+      "E:/Related_Github_Project/OnlineWorld/backend/venv/Scripts/python.exe -c \"from app.api.v1.endpoints.news import router; from app.api.v1.endpoints.netdisk import router as nd_router; print('ok')\""
+    ],
+    "frontend_build": [
+      "Set-Location E:\\Related_Github_Project\\OnlineWorld\\frontend",
+      "npm run build"
+    ],
+    "news_contract_check": [
+      "Set-Location E:\\Related_Github_Project\\OnlineWorld",
+      "E:/Related_Github_Project/OnlineWorld/backend/venv/Scripts/python.exe -c \"import json, urllib.request as u; base='http://127.0.0.1:8000/api/v1'; data=json.loads(u.urlopen(base+'/news/articles?limit=1').read().decode()); assert isinstance(data.get('articles', []), list); print('news-contract-ok')\""
+    ],
+    "scheduler_run": [
+      "Set-Location E:\\Related_Github_Project\\OnlineWorld",
+      "E:/Related_Github_Project/OnlineWorld/backend/venv/Scripts/python.exe backend/scripts/run_probabilistic_detective_scheduler.py --cycles 3 --actors aria"
+    ]
+  },
+  "agent_policy": {
+    "prioritize_root_cause_fix": true,
+    "avoid_mock_fallback_for_llm": true,
+    "keep_public_output_keys_stable": true,
+    "preserve_idempotency_paths": true
+  }
+}

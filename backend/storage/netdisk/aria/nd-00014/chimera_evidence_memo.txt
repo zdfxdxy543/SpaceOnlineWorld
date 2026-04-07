@@ -1,0 +1,32 @@
+WITNESS MEMO
+Case Reference: CHM-2003-ALPHA
+Classification: INTERNAL USE ONLY
+Author: Agent J. Richter, Document Security Division
+Date Filed: 17 November 2003
+Subject: Evidence Dossier: Project Chimera
+
+--- EXECUTIVE SUMMARY ---
+This dossier consolidates observations and evidence regarding suspicious financial activity and unauthorized research directives linked to the 'Project Chimera' initiative. Initial flags were raised on 12 October 2003 by the Compliance Oversight team during a routine quarterly audit of discretionary R&D funds. The scope of this memo is to document the timeline and nature of these irregularities for the internal investigation panel.
+
+--- CHRONOLOGY OF EVIDENCE ---
+
+1. 12 October 2003, 14:30: During audit of Q3 2003 expenditures, a series of wire transfers were identified from the primary research account (Acct. #4477-882L) to an external entity listed as 'Prometheus Biomedical Holdings, LLC.' Transaction amounts: $250,000 (15 July), $180,000 (22 August), $412,500 (10 September). No corresponding procurement invoices or service contracts were on file. Authorization signatures were digitally applied using the credentials of Dr. Aris Thorne (Director, Advanced Concepts), but his office has no record of approving these specific transfers.
+
+2. 15 October 2003, 11:00: A search of internal communications retrieved a memo dated 5 August 2003, subject line: 'Operational Parameters for Phase 3.' The memo, sent from a.t.horne@internal.net to r.valencia@internal.net and v.kessler@internal.net, references 'subject acquisition and neural interface calibration' requiring 'off-book logistical support.' The memo was not filed through standard project management channels and lacks a proper security clearance header.
+
+3. 22 October 2003, 09:15: Interview with Logistics Supervisor R. Valencia. Valencia confirmed arranging three shipments of 'specialized bio-monitoring equipment' to a private warehouse facility (Unit 14, 800 Industrial Parkway) between August and September. He stated instructions came via encrypted email from Dr. Thorne, bypassing standard material tracking protocols. He provided shipment manifests listing items with procurement codes corresponding to restricted neurological research hardware.
+
+4. 5 November 2003, 16:45: Financial forensics identified that Prometheus Biomedical Holdings, LLC was incorporated in Delaware on 20 June 2003. The registered agent is a legal firm with no other known ties to our organization. Bank records show the funds received were subsequently dispersed to several overseas accounts in jurisdictions with strong banking secrecy laws.
+
+--- OBSERVATIONS ---
+- The financial trail suggests a deliberate effort to conceal the ultimate destination and purpose of substantial funds.
+- Internal communications regarding 'Phase 3' imply a research phase that was never formally proposed, reviewed, or approved by the Ethics Committee or the Board.
+- The use of a shell corporation (Prometheus Biomedical) and the routing of equipment to an unlisted facility indicate the establishment of a parallel, clandestine research operation.
+- Dr. Thorne's credential use on the transfers is contradictory to his claimed awareness, suggesting either compromised system access or intentional obfuscation.
+
+--- PRELIMINARY ASSESSMENT ---
+The accumulated evidence strongly indicates a serious breach of protocol and potential misconduct. Project Chimera, as an authorized program, was limited to theoretical modeling and in-vitro cellular studies. The evidence points to an active, physical research phase involving human subjects ('subject acquisition') and advanced neuro-technology, funded and operated without oversight. This constitutes a major security and ethical violation. Immediate steps should include securing all related digital and physical assets, suspending system access for involved personnel pending further inquiry, and a formal forensic audit of all related accounts from Q2 2003 onward.
+
+--- END OF MEMO ---
+Distribution: Internal Investigation Panel (Chambers, Fisk, Petrova)
+Copy Archived: Digital Vault // CHM-EVIDENCE-001

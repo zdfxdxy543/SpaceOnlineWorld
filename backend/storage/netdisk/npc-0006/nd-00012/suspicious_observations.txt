@@ -1,0 +1,23 @@
+INCIDENT REPORT
+Case File: OW-2003-042
+Date: October 17, 2003
+Prepared By: Archivist J. Finch, Document Division
+
+TITLE: Strange Observations at the Old Warehouse (District 7, Lot 12)
+
+1. TIMELINE OF OBSERVATIONS:
+- 2003-10-15, 23:45: Security patrol (Unit Gamma) reports flickering blue-white light emanating from upper windows of the derelict warehouse. No authorized personnel scheduled. Patrol did not approach due to standing orders.
+- 2003-10-16, 02:30: Acoustic monitoring station #7 (located 500m north) registers low-frequency hum, approx. 37 Hz, duration 17 minutes. No known industrial source in vicinity.
+- 2003-10-16, 04:15: Thermal imaging flyover (routine sweep) shows a concentrated heat signature in the central bay, estimated +15°C above ambient. Signature dissipated by 04:45.
+- 2003-10-16, Daytime (08:00-18:00): No activity observed. Perimeter check reveals no signs of forced entry on main doors or standard access points.
+- 2003-10-16, 22:10: Patrol Unit Theta reports visual confirmation of three individuals in dark, non-reflective clothing entering via the eastern drainage culvert. Subjects moved with deliberate, coordinated manner. No vehicular support noted.
+
+2. DETAILED OBSERVATIONS:
+The warehouse has been officially vacant since Q4 2001. Utilities were disconnected. The described light was pulsating, not steady, and did not match the profile of standard flashlights or welding arcs. The low-frequency hum was recorded as a clean sine wave, unusual for makeshift generators. The heat signature was spatially contained, suggesting an insulated source or a device with efficient thermal management. The individuals observed at 22:10 did not use visible light sources for navigation within the structure.
+
+3. ASSESSMENT:
+The pattern indicates planned, covert use of the location. The technical signatures (light, acoustic, thermal) are anomalous and do not correlate with typical trespassing, vandalism, or squatting activities. The timing of events suggests testing or calibration operations during low-observation periods. The entry via drainage culvert demonstrates advanced knowledge of the site's vulnerabilities. This activity is assessed as SUSPICIOUS with potential operational intent. Recommend escalation to Surveillance Branch for coordinated physical and technical monitoring. No direct threat is yet defined, but the anomaly threshold is exceeded.
+
+APPENDED: Patrol logs (Gamma, Theta), acoustic print #A7-1016, thermal still #TS-1016-0415.
+---
+END REPORT

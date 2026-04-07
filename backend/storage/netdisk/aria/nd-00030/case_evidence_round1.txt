@@ -1,0 +1,23 @@
+Case Evidence Snapshot
+Internal Archive Record
+Case ID: 04-2002-781
+Prepared By: Archivist J. Varma
+Date: 2002-04-17
+Time of Log Entry: 14:30 EST
+
+--- EVIDENCE ROUND 1 NOTES ---
+
+Timestamp of Initial Scene Securement: 2002-04-16, 22:45 EST.
+Primary Location: Third-floor server room, North Wing, Aurora Biotech HQ.
+
+Observations:
+1.  Digital Media: One (1) tower-style personal computer (custom build, no OEM markings) found powered on but displaying a system error screen (BSOD). Memory dump analysis pending. Serial number on chassis: ABT-SRV-AUX03. Three (3) external hard drives (brand: 'DataMax', 250GB each) were connected via USB. Drives were hot to the touch, indicating recent prolonged activity. Labeled with handwritten tags: 'LOG_ARCHIVE_1', 'RAW_FEED_2', 'TEMP_3'.
+2.  Physical Documents: A small stack of printed network topology diagrams was found beside the keyboard. Diagrams are dated Q4 2001 and show several manual annotations in red ink, highlighting a subnet labeled 'R&D_ISOLATED'. One corner of the top diagram is torn.
+3.  Peripheral Anomaly: A USB flash drive (generic, 128MB) was found plugged into the front panel of the tower. Not part of the standard inventory for this room. Drive contents were previewed via write-blocker; directory structure shows a single folder named 'deliverable' containing numerous .txt files with numeric names (e.g., '00123.txt'). Preliminary scan indicates possible data export logs.
+4.  Environmental: Room temperature was notably high (estimated 85°F/29°C) despite HVAC system logs showing normal operation. A faint, acrid odor (ozone/burning electronics) was noted near the primary server rack, but no visible smoke or fire damage was found on initial sweep.
+
+Short Assessment:
+The scene suggests unscheduled, extended data transfer activity from an auxiliary machine not listed on the official server registry. The presence of non-standard storage devices and annotated internal network maps indicates either a severe policy breach or a covert operational task. The state of the hardware (overheating drives, system crash) points to a possible hardware failure or an abrupt interruption of process. The generic flash drive is a significant point of interest; its contents appear structured and may contain a transaction record. Immediate next steps: forensic imaging of all digital media and verification of personnel with access to the North Wing server room after 18:00 hours on 2002-04-16.
+
+--- END OF SNAPSHOT ---
+Filed to central archive: 2002-04-17, 14:35 EST.

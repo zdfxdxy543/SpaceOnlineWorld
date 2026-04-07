@@ -1,0 +1,31 @@
+**SUSPICIOUS ACTIVITY LOG**
+**Case ID:** NET-ALERT-2004-017
+**Archivist:** J. Finch
+**Date Log Initiated:** October 26, 2004
+**Classification:** INTERNAL USE ONLY - EYES ON SITE
+
+**Overview:** This log documents anomalous network traffic patterns detected on the primary corporate intranet (subnet 172.16.0.0/16) between October 19 and October 25, 2004. Activity was flagged by automated intrusion detection systems (Snort v1.8) and subsequent manual review.
+
+**Log Entries:**
+
+**2004-10-19, 23:17:04 EST:** First anomalous packet sequence detected. Source IP: 172.16.24.118 (asset: engineering workstation ENGW-7). Destination: external IP 209.85.231.104 (registered to Google LLC). Traffic pattern consisted of sustained, low-volume TCP packets on non-standard port 4444 over a 4-minute period. Standard HTTP/HTTPS proxies were bypassed. Logged as IDS Alert #3341.
+
+**2004-10-21, 03:45:12 EST:** Irregular outbound DNS queries from server SRV-DB03 (IP: 172.16.5.12). Queries for multiple randomized, alphanumeric subdomains of a known dynamic DNS provider (e.g., x7g9a.dyndns.org). Query volume peaked at 120 requests per minute for a 90-second window. No corresponding legitimate service requires this behavior. Logged as IDS Alert #3350.
+
+**2004-10-22, 14:30:55 EST:** Internal lateral movement detected. Source IP: 172.16.24.118 (ENGW-7) initiated repeated SMB connection attempts to multiple departmental file servers (172.16.10.xx range) using a series of common usernames (admin, administrator, backup). Attempts were unsuccessful due to access controls but represent a clear reconnaissance pattern. Logged by host-based firewall logs.
+
+**2004-10-24, 20:01:33 EST:** Significant data egress anomaly. Outbound traffic from SRV-DB03 to an IP in a foreign ASN (ASN 4134, China Telecom). Traffic was encrypted (likely SSH tunnel) and sustained at approximately 2.8 Mbps for 18 minutes, totaling an estimated 40 MB of data transferred. This server hosts sensitive R&D archives. No scheduled backup or sync job correlates with this timeframe. Primary alert from netflow analysis.
+
+**2004-10-25, 08:15:00 EST:** Source workstation ENGW-7 found powered on but unresponsive at the physical desk. User (K. Riley) reported not having used the machine since 1700 on October 22. A cursory forensic image was taken. Machine showed signs of a user-mode rootkit (presence of hidden port listener).
+
+**Assessment:** The timeline indicates a multi-stage intrusion. Initial compromise likely occurred on or before October 19 via workstation ENGW-7, followed by credential harvesting/internal reconnaissance. The attacker then pivoted to server SRV-DB03, established command and control via DNS tunnels, and exfiltrated data on October 24. The use of non-standard ports, dynamic DNS, and encryption suggests a moderately sophisticated actor. The rootkit presence implies persistence was achieved.
+
+**Action Taken:**
+1. Workstation ENGW-7 and server SRV-DB03 have been isolated from the network.
+2. All credentials from potentially compromised accounts are being rotated.
+3. Full forensic analysis of both systems is pending.
+4. Law enforcement notification is being considered pending legal review.
+
+**Next Review:** November 2, 2004.
+
+**End of Log.**

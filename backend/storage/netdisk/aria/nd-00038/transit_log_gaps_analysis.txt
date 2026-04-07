@@ -1,0 +1,34 @@
+TIMELINE ANALYSIS NOTE
+File Ref: T-A-2003-114
+Date: 17 October 2003
+Prepared By: Archivist D. Chen
+Subject: Transit Logs Analysis - Gaps near reported sighting (Grid 7E)
+
+SUMMARY OF SOURCE MATERIALS:
+- Central Transit Authority (CTA) automated bus and tram logs for sectors 7-East and 7-West.
+- Raw data covers period 12 October 2003, 2100hrs to 13 October 2003, 0300hrs.
+- Cross-reference: Civilian report (Case #03-445) of unidentified aerial phenomenon near the old railway overpass at Grid 7E-22, approx. 2330hrs 12 Oct.
+
+OBSERVED TIMELINE & ANOMALIES:
+
+2100-2250hrs: Log traffic is nominal. All scheduled buses (Lines 44, 87, 102) and trams (Blue Line) report positional pings at 90-second intervals as per protocol.
+
+2255hrs: Last confirmed ping from Blue Line Tram #7B. Position: 7E-18 (Junction of Meridian and 5th).
+
+2302hrs-2318hrs: GAP PRIMARY. No positional data received from any transit vehicle within a 1.5km radius of Grid 7E-22. Scheduled vehicles during this window:
+  - Bus #102-14 (scheduled pass at 2305hrs)
+  - Blue Line Tram #7B (scheduled pass at 2310hrs)
+  - Bus #44-09 (scheduled pass at 2315hrs)
+Logs show these vehicles 'in transit' but with zero positional updates.
+
+2319hrs: Data stream resumes. Bus #44-09 pings at position 7E-25, approximately 800m east of its last expected position prior to the gap. No error codes logged.
+
+2320-2335hrs: Logs show irregular intervals. Pings from vehicles in the vicinity occur at 120-180 second intervals instead of standard 90 seconds. Signal strength metrics for this period show minor fluctuations but remain within nominal range.
+
+2336hrs onward: Interval timing returns to standard 90-second protocol. All subsequent logs appear normal through end of review period.
+
+ASSESSMENT:
+The 16-minute data gap (2302-2318hrs) is anomalous. Standard failure modes (local transmitter outage, network congestion) would typically generate system error flags, which are absent. The concurrent loss of signal from multiple independent vehicle systems, followed by a vehicle appearing off its expected track, suggests a localized disruption to GPS and/or telemetry systems. This disruption coincides temporally and geographically with the civilian report. The subsequent irregular ping intervals for approx. 15 minutes may indicate a system recovery phase. Recommended action: Flag for technical audit of CTA ground receivers in Sector 7E and cross-check with any non-transit telemetry (e.g., municipal power grid monitors) for the same period.
+
+ACTION STATUS: Forwarded to Technical Liaison, 18 Oct 2003. Awaiting audit results.
+END OF DOCUMENT

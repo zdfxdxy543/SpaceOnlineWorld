@@ -1,2 +1,10 @@
-# SpaceOnlineWorld
-This is a second repository of OnlineWorld. However, this is about something happened in space.
+# OnlineWorld
+这是一个线上世界，由AI大模型进行驱动。
+
+## 开发交接文档
+
+为方便在不同 Copilot / AI 对话之间快速接手项目，请优先阅读：
+
+- `docs/AI_HANDOFF.md`
+
+该文档记录了当前项目目标、系统抽象、仓库状态、已确认共识、MVP 边界与下一步建议。

@@ -1,0 +1,42 @@
+Case Evidence Snapshot
+Reference ID: CES-2003-0415-01
+Archivist: J. Finch
+Date of Log: April 15, 2003
+Time of Initial Compilation: 14:30 EDT
+
+--- EVIDENCE ITEM LOG ---
+
+Item #1: Physical Object
+- Description: Standard 3.5" floppy disk, beige casing, no manufacturer label.
+- Location Recovered: Desk drawer, third-floor office (Room 307), Smithson Building.
+- Condition: Surface shows minor scratches; no visible corrosion on metal shutter.
+- Chain of Custody: Secured by Officer D. Reyes at 10:15 EDT, April 15. Transferred to Evidence Locker #7 at 11:00 EDT.
+- Preliminary Note: Disk was found inserted into an external drive connected to a powered-down desktop computer (Dell OptiPlex GX110). Drive activity light was not illuminated.
+
+Item #2: Digital Media
+- Description: CD-R (compact disc recordable) with handwritten label: "BACKUP_0311". Label is in blue ballpoint pen, block capitals.
+- Location Recovered: Center console of a 1998 Ford Taurus, registered to subject "M. Vance". Vehicle was impounded at 08:00 EDT, April 15.
+- Condition: Disc appears unblemished; no fingerprints visible on reflective surface.
+- Chain of Custody: Recovered by Detective A. Shaw at 08:45 EDT. Placed in anti-static sleeve and logged into digital evidence vault at 09:30 EDT.
+- Preliminary Note: The disc was found alongside a receipt for a coffee shop dated April 10, 2003. The handwriting on the label matches writing on the receipt.
+
+Item #3: Document
+- Description: Three (3) pages of printed email correspondence, laser-printed on standard 20 lb. white paper.
+- Location Recovered: Paper recycling bin adjacent to the photocopier, second-floor common area, Smithson Building.
+- Condition: Pages are crumpled but legible; toner is smudged on the second page, possibly from moisture.
+- Chain of Custody: Retrieved by Custodial Staff (R. Gupta) at approximately 06:00 EDT on April 15, handed to security. Logged into evidence at 13:20 EDT.
+- Preliminary Note: Emails are dated between March 28 and April 5, 2003. The printouts show headers but lack full email metadata. The content references "delivery schedules" and "final approvals." The recipient field is redacted in the printout.
+
+--- OBSERVATIONS ---
+
+- The floppy disk (Item #1) and the email printouts (Item #3) were recovered from the same building (Smithson Building) but on different floors. This may indicate dispersed disposal of materials.
+- The CD-R (Item #2) was found in a personal vehicle, separate from the primary site. The handwritten label suggests a personal backup created on or around March 11, 2003.
+- No immediate signs of tampering or deliberate destruction were observed on the physical media. The crumpling of the documents appears consistent with casual disposal in a recycling bin.
+- The proximity of the floppy disk to a computer, though powered down, suggests potential for recent use. The external drive connection is notable as the desktop itself had an internal floppy drive.
+
+--- SHORT ASSESSMENT ---
+
+The initial evidence snapshot indicates a mix of digital and physical materials potentially related to a common timeline (late March to early April 2003). The separation of items across locations (office, vehicle, common area) could point to an attempt to compartmentalize information or simply reflect normal workflow patterns. The email printouts, while fragmentary, provide a direct textual narrative that may contextualize the data found on the digital media. Priority for next round should be forensic imaging of the floppy disk and CD-R to ascertain contents, followed by cross-referencing email content with any recovered digital files. The handwritten label on the CD-R warrants handwriting analysis comparison against known samples from M. Vance.
+
+--- END OF SNAPSHOT ---
+Log closed: 15:00 EDT, April 15, 2003

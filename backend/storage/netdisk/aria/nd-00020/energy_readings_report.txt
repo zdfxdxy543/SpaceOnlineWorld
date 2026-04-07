@@ -1,0 +1,31 @@
+INCIDENT REPORT: EVIDENCE OF UNUSUAL ENERGY READINGS
+
+Report ID: ER-2004-078
+Date Filed: 2004-11-17
+Filed By: Archivist J. Simmons, Document Verification Unit
+Classification: INTERNAL USE ONLY
+
+---
+
+1. INCIDENT OVERVIEW
+This report compiles and verifies sensor data and eyewitness accounts pertaining to anomalous energy fluctuations detected in and around the central town square between October 28 and November 5, 2004. The initial alert was raised by Municipal Grid Monitor MGS-12, with subsequent corroboration from portable field equipment.
+
+2. CHRONOLOGICAL DATA LOG
+
+- 2004-10-28, 03:14:17 EST: First registered spike. MGS-12 recorded a transient electromagnetic pulse (EMP) of 2.3 milligauss, duration 0.8 seconds. Baseline for the area is 0.05 milligauss. No corresponding civic electrical activity was logged.
+
+- 2004-10-30, 21:45:02 EST: Sustained fluctuation. A low-frequency hum (approx. 18 Hz) was reported by three separate residents living adjacent to the square. Field team dispatched at 22:30 hours detected residual thermal anomaly: a localized 5-degree Celsius temperature drop centered on the old fountain, persisting for 47 minutes. Ambient temperature was 12°C.
+
+- 2004-11-02, 00:01:55 EST: Major event. A cascading series of RF emissions across multiple bands (VLF to UHF) was captured by mobile monitoring van for a period of 4 minutes, 33 seconds. Peak intensity reached 150% above normal background radiation levels. Visual phenomena reported concurrently included brief, static-like visual distortion in the air near the war memorial, described by one witness as 'a shimmer, like heat haze, but at night.'
+
+- 2004-11-05, 14:20:00 EST: Final significant reading. A sharp, isolated spike in ambient electrostatic charge was measured at the southeast corner of the square. Charge density increased by 800% for approximately two seconds, sufficient to cause minor interference with digital recording equipment.
+
+3. OBSERVATIONS & CORROBORATING EVIDENCE
+- All sensor malfunctions have been ruled out; equipment was calibrated before, during, and after the observation period.">- No scheduled municipal work, private events, or known natural phenomena (e.g., geomagnetic storms) align with the timing or signature of these events.">- Witness interviews (on file as supplement WIT-ER-078-A through C) consistently describe atypical sensations of 'pressure' or 'static' in the air preceding visible effects.
+
+4. PRELIMINARY ASSESSMENT
+Data confirms a pattern of unexplained, non-terrestrial energy manifestations originating from a focal point within the town square. The emissions are multi-spectral, transient, and possess an intelligent modulation pattern inconsistent with random natural occurrence. While the energy levels recorded do not currently pose a direct public safety hazard, the repeated nature and increasing complexity of the events warrant continued surveillance and elevation to the Anomalous Phenomena Committee. A full-spectrum monitoring station is recommended for permanent deployment at grid coordinates 47-22N, 08-33E.
+
+---
+
+END OF REPORT

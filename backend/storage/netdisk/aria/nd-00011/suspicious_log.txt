@@ -1,0 +1,26 @@
+SUSPICIOUS ACTIVITY LOG
+
+Case/Project: Unassigned / General Monitoring
+Log Keeper: Archivist J. Varma
+Start Date: 12 October 2004
+Last Updated: 18 October 2004
+
+--- LOG ENTRIES ---
+
+12 OCT 2004, 23:17: Security camera 3B (loading dock) records a single, unmarked white van arriving. Driver remains in vehicle for approximately 47 minutes with engine and interior light on. No loading/unloading observed. Van departs at 00:04 on the 13th. No license plate visible due to angle and dirt. Notified night supervisor (log ref: NS-1047).
+
+14 OCT 2004, 03:45: Anomalous network activity detected. Internal server logs show repeated, failed SSH login attempts on the R&D subnet gateway (IP 172.16.8.1). Source IP traced to a proxy service, origin unknown. Attempts ceased at 04:30. Incident reported to IT Security (ticket #IT-4412).
+
+15 OCT 2004, 14:30: Reception logs a visitor for a "Mr. A. Smith" claiming a 2 PM appointment with Dr. Aris in Materials Science. No such appointment found in departmental calendar. Visitor described as male, mid-40s, grey trench coat, carried a black leather briefcase. Left premises after being informed Dr. Aris was unavailable. Did not leave a card. Receptionist noted he seemed "unfazed" by the lack of appointment.
+
+16 OCT 2004, 20:15-21:00: Janitorial staff (M. Chen) reports finding office 408 (currently unoccupied) unlocked. Light was on and the desk drawer was open. Nothing appears missing from the standard inventory, but Chen reports a "chemical smell, like ammonia" in the room. Door was secured after inspection.
+
+17 OCT 2004, 11:00: Anonymous internal mail received in Archives Dept. envelope. Contents: a single, high-resolution photocopy of a 1978 city zoning map for the industrial district, with our facility's current location circled in red ink. No postmark, no note. Envelope handled with gloves and placed in evidence locker EL-9.
+
+18 OCT 2004, 09:00: Maintenance finds a small, sophisticated wireless transmitter (non-standard make) attached to the underside of a conference room table in Room 12. Device was inactive/powered off. Removed and submitted to Security for analysis.
+
+--- ASSESSMENT ---
+
+The recorded incidents, while individually inconclusive, suggest a coordinated pattern of probing. The physical surveillance (van, visitor, transmitter), cyber intrusion attempts, and the anonymous map delivery indicate an external party is gathering intelligence on the facility's layout, personnel, and network security. The choice of after-hours activity and use of unoccupied spaces points to a methodical operation. The chemical smell in office 408 is unverified but concerning. Recommend elevating threat level to MODERATE and initiating a formal review of all physical and digital access logs for the past 30 days. Cross-reference with any ongoing projects in Materials Science and R&D.
+
+--- END LOG ---

@@ -1,0 +1,34 @@
+Case Evidence Snapshot
+Internal Reference: IR-2004-087
+Date of Compilation: 2004-11-17
+Compiled By: Archivist J. Voss
+
+--- EVIDENCE LOG ---
+
+Timestamp of Initial Scene Arrival: 2004-11-15, 22:47 EST
+Location: Secure Data Hub C, Sub-level 3, Mainframe Access Corridor.
+
+Evidence Item #1: Physical Media
+- Description: One (1) 3.5" floppy disk, black casing, no manufacturer label. Handwritten label reads "BACKUP??" in blue ink.
+- Location Recovered: Found on floor approximately 1.5 meters from primary server rack C-7.
+- Condition: Appears physically undamaged. No visible corrosion on metal shutter.
+- Initial Action: Placed in anti-static evidence bag #E-114. Forwards to Digital Forensics Lab for imaging and analysis. Pending chain-of-custody form DF-12.
+
+Evidence Item #2: Hardware Anomaly
+- Description: Server rack C-7, primary data node. External chassis panel (lower right) shows signs of recent removal. Four (4) Phillips-head screw heads exhibit fresh tool marks inconsistent with standard maintenance logs.
+- Location: As above.
+- Condition: Internal inspection reveals data cable SATA-3 disconnected from motherboard port. Cable appears intact. No other internal components visibly displaced or missing.
+- Initial Action: Scene photographed (Ref: Photos C7-01 through C7-15). Hardware left in situ pending full technical audit.
+
+Evidence Item #3: System Log Fragment
+- Description: Printed excerpt from primary security console log, timestamped 2004-11-15, between 21:30 and 22:15 EST.
+- Location: Retrieved from networked printer in adjacent monitoring station.
+- Condition: Single sheet, laser print. Log entries show repeated failed authentication attempts for user account "sys_maint_04", originating from terminal STN-11 (Data Hub C). Entries cease at 22:14:03, coinciding with a brief network latency spike logged by the core router.
+- Initial Action: Copy archived to secure network drive (\archive\IR-2004-087\logs). Original placed in evidence sleeve #E-115.
+
+--- ASSESSMENT SECTION ---
+
+Preliminary assessment suggests a coordinated access attempt with a physical component. The presence of the unlabeled floppy disk in proximity to a tampered server rack is highly anomalous for this environment. The disconnected data cable could indicate an attempt to create a denial-of-service condition or to facilitate a direct hardware tap. The log failures on a maintenance account, from a terminal within the secured corridor, point to potential credential compromise or insider knowledge. The timing of events within a narrow 45-minute window prior to discovery warrants further scrutiny of personnel access logs for that period. Recommend prioritizing forensic analysis of the floppy disk and a full audit of terminal STN-11's activity.
+
+--- END OF SNAPSHOT ---
+Next Review Scheduled: 2004-11-19

@@ -1,0 +1,37 @@
+DOCK 7 NIGHT WATCH LOGS & PAPER TRAIL ANALYSIS
+Internal Reference: SEC-2003-0147
+Archivist: J. Vargas
+Date Compiled: November 17, 2003
+Classification: RESTRICTED
+
+---
+
+1. SYNOPSIS:
+This document provides a comparative analysis of electronic security logs (Gatehouse Terminal DB) against manual paper logs (Night Watchman's Ledger, Dock 7) for the period October 1–31, 2003. Discrepancies were flagged during routine quarterly audit of perimeter security protocols.
+
+2. TIMELINE OF NOTABLE DISCREPANCIES:
+
+- **2003-10-05, 23:14**
+  *Electronic Log:* Entry for Truck ID #3347 (Meridian Freight) logged as “departed, cargo verified.”
+  *Paper Log:* No entry for Truck #3347. Following entry for 23:30 notes “quiet period, no traffic.”
+
+- **2003-10-12, 02:47**
+  *Electronic Log:* Gate 7B access log shows three consecutive badge swipes by personnel ID #8821 (R. Cho) within a 90-second window. Door relay shows ‘forced open’ alert at 02:48.
+  *Paper Log:* Single entry at “approx. 02:45” stating “R. Cho on rounds, all secure.” No mention of door issue.
+
+- **2003-10-19, 04:11 – 04:35**
+  *Electronic Log:* Perimeter motion sensor P-12 (near Warehouse C) triggered. No corresponding guard check-in via radio log.
+  *Paper Log:* Entry at 04:20 reads “Visual sweep of Warehouses B-D, nothing to report.” Sensor location not specified.
+
+- **2003-10-28, 22:05**
+  *Electronic Log:* Cargo manifest scan for Container TLS-4419 logged as ‘completed, seals intact.’
+  *Paper Log:* Entry at 22:00 states “Container TLS-4419 delayed for manual inspection, seal damaged.” Entry crossed out with “resolved” written at 22:40.
+
+3. OBSERVATIONS:
+The manual ledger exhibits consistent time-approximation (‘approx.,’ ‘around’), whereas the electronic system logs to the second. The ledger lacks granular detail on system alerts (door forced, sensor triggers). The entry for 10/28 is the most severe contradiction, indicating a potential failure to log a seal integrity issue in the digital system. Night watchman’s initials for all shifts in question: ‘F.G.’ (Franklin Griegs).
+
+4. ASSESSMENT:
+The discrepancies suggest either significant procedural lapses in manual record-keeping or deliberate omission. The 10/28 log conflict raises red flags regarding cargo inspection accountability. The electronic logs, while precise, rely on sensor and badge data that could be spoofed. The paper trail, intended as a human-verified backup, fails in its corroborative function. Recommend: (1) Interview F. Griegs, (2) Review CCTV footage for corresponding timestamps, (3) Implement a mandatory cross-verification protocol for all seal-damage incidents.
+
+---
+END OF ANALYSIS

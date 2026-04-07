@@ -1,0 +1,32 @@
+Case Evidence Snapshot
+Case ID: 2004-08-22-ALPHA
+Archivist: J. Simmons
+Date of Entry: 2004-08-23 14:30 EST
+
+--- EVIDENCE LOG ROUND 1 ---
+
+Timestamp of Initial Scene Secure: 2004-08-22 23:17 EST
+Location: Third-floor server room, North Wing, Meridian Data Hub.
+
+Item E-01: Physical Media.
+Recovery: Single 3.5" floppy disk found on floor adjacent to primary server rack (Rack B7).
+Condition: Disk appears old, label handwritten 'BACKUP_4/99' with marking 'FINAL' in red ink. Surface shows minor dust accumulation, no immediate signs of physical damage.
+Action Taken: Placed in anti-static evidence bag #22-304. Awaiting digital forensic imaging.
+
+Item E-02: Log File Anomaly.
+Recovery: Automated syslog alert triggered at 22:55 EST on 08/22. Hard copy of relevant log segment printed at scene.
+Observation: Sequence of failed SSH login attempts originating from internal IP 192.168.6.12 between 22:30 and 22:50. IP corresponds to a decommissioned workstation in the accounting department. Last successful login to primary admin panel recorded at 21:03 EST from authorized terminal.
+
+Item E-03: Environmental Data.
+Recovery: Thermostat log printout and security camera stills (Camera 3B).
+Observation: Server room temperature spiked to 82°F at 22:40 EST, exceeding normal operating range (68-72°F). Climate control system log shows no corresponding activation of cooling. Camera 3B footage from 22:15-22:45 shows a brief flicker in lighting at approximately 22:38, but no visible personnel entry during that window.
+
+Item E-04: Witness Statement (Abridged).
+Source: Night custodian, M. Chen (employee ID# 88734).
+Statement Summary: Heard a 'low hum, like a fan straining' from near server room door during 22:30 rounds. Did not enter, assumed it was routine. Reported nothing else out of the ordinary.
+
+--- PRELIMINARY ASSESSMENT ---
+Evidence suggests a coordinated incident with both digital and physical vectors. The floppy disk (E-01) is anachronistic and requires priority analysis. The failed logins from a decommissioned IP (E-02) indicate possible credential spoofing or internal network compromise. The environmental anomaly (E-03) may correlate with unauthorized hardware activity or a deliberate attempt to trigger a system fault. The witness statement (E-04) loosely corroborates the timeline. Immediate next steps: Forensic image of E-01, deep audit of network traffic for IP 192.168.6.12, and full review of all server room access logs for the past 48 hours.
+
+---
+End of Round 1 Snapshot. For continuity, see subsequent evidence logs.

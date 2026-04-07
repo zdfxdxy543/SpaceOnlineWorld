@@ -1,0 +1,30 @@
+Case Evidence Snapshot
+Internal Reference: IR-2003-044
+Date of Snapshot Compilation: 14 November 2003, 16:30 EST
+Compiled By: Archivist J. Petrov, Digital Evidence Section
+
+--- EVIDENCE LOG ---
+
+Item #1: Physical Media
+- Tag: CE-2003-044-01
+- Description: One (1) 3.5" floppy disk, beige casing, manufacturer label partially peeled. Handwritten marking on label reads "BACKUP JAN".
+- Chain of Custody: Recovered from secondary office of subject (Room 407, Hamilton Building) during preliminary site survey on 12 November 2003, 10:15 EST. Sealed in evidence bag #407-1A.
+- Initial Observation: Disk appears slightly warped. Scheduled for forensic imaging and bit-level analysis due to potential data degradation.
+
+Item #2: Digital Capture (Network)
+- Tag: CE-2003-044-02
+- Description: Packet capture log from internal mail server (mail-srv02). Timeframe: 01 October 2003 00:00 to 31 October 2003 23:59.
+- Chain of Custody: Captured via authorized administrative mirror port on 10 November 2003. Raw data stored on secured evidence server (ES-04), path: /vol/evidence/2003/044/pcap/
+- Initial Observation: Log shows anomalous SMTP traffic spikes originating from three internal workstations not typically associated with high-volume mail functions. IP addresses logged and flagged for cross-reference with user assignment logs.
+
+Item #3: Document (Hard Copy)
+- Tag: CE-2003-044-03
+- Description: Three (3) pages of dot-matrix printer output, continuous feed paper with perforated edges removed. Content appears to be fragmented financial figures and project codenames.
+- Chain of Custody: Found interleaved within unrelated technical manuals in a common-area recycling bin, Building C, first floor. Retrieved by custodial staff on 13 November 2003, approx. 07:00 EST and forwarded to security.
+- Initial Observation: Paper shows minimal handling wear. Text is fragmented but includes repeated alphanumeric strings (e.g., "Zephyr-7", "Tango Actual"). Recommended for latent fingerprint analysis and content cataloging.
+
+--- PRELIMINARY ASSESSMENT ---
+
+This first-round collection establishes a baseline of disparate but potentially correlative data points. The floppy disk (CE-044-01) and the hard-copy documents (CE-044-03) suggest an attempt to utilize outdated or low-visibility mediums, possibly for off-record communication or data transfer. The network traffic anomalies (CE-044-02) provide a digital thread that may link specific user terminals to the activity implied by the physical evidence. Immediate next steps should focus on forensic recovery of the floppy disk contents and correlating the IP addresses from the packet capture with employee access schedules and workstation assignments for the period in question. All items are securely stored in the main evidence locker (Locker 12) pending further analysis.
+
+--- END OF SNAPSHOT ---

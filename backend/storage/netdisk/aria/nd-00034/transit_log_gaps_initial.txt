@@ -1,0 +1,31 @@
+TRANSMITTED: 12 NOV 2003 14:30 EST
+CLASSIFICATION: INTERNAL USE ONLY
+FROM: ARCHIVES DESK, SECTOR 7
+TO: INVESTIGATION TEAM, CASE #03-447 "VERIDIAN ECHO"
+SUBJECT: TRANSIT LOGS ANALYSIS - TIMELINE GAPS
+REF: SURVEILLANCE REQUEST 03-447-B
+
+--- INITIAL COMPILATION NOTES ---
+
+Per request dated 10 NOV 2003, all available municipal transit authority logs for the Greater Franklin Metro area for the period 05 OCT - 09 OCT 2003 have been cross-referenced with the primary incident report (IR-03-447-01). The following discrepancies and temporal gaps have been identified.
+
+**KEY TIMESTAMP DISCREPANCIES:**
+
+*   05 OCT 2003, 22:17: Last logged GPS ping from Metro Bus #1187 (Route 14) at the intersection of 5th and Mercer. Next system-registered activity for any vehicle on Route 14 occurs at 22:41 at the Grand Avenue terminal, a 24-minute gap. Normal interval is 12-15 minutes.
+
+*   06 OCT 2003, 03:05 - 03:22: Complete system-wide logging blackout for the Central Dispatch server. Diagnostics logged at 03:23 show a "routine maintenance reboot," but no prior work order exists for this timeframe.
+
+*   07 OCT 2003, 20:08: Franklin Area Rapid Transit (FART) Line C southbound train departs Westgate Station. Automated passenger count system registers 42 entries at Westgate, but the subsequent scan at Jefferson Station, arrival 20:14, registers only 38 exits, with no intermediate stops. Logs show no door fault alarms. Four-passenger discrepancy unresolved.
+
+*   08 OCT 2003, pre-dawn period (approx. 04:00 - 05:30): Traffic camera feeds for the Miller Street overpass (Grid G-12) are catalogued as "corrupted/unsalvageable" for this 90-minute window. Adjacent grid cameras (G-11, H-12) functioned normally. This corridor was part of a reported unscheduled freight movement.
+
+**OBSERVATIONS:**
+1.  The gaps are not contiguous but occur on consecutive nights, each within a 2-hour window of the primary subject's reported sightings per IR-03-447-01.
+2.  Each gap involves a different transit modality (bus, central server, train, traffic cam), suggesting no single point of systemic failure.
+3.  Log entries immediately preceding and following the gaps show no anomalous vehicle telemetry or driver/operator alerts.
+4.  The 24-minute bus gap and the passenger count discrepancy on the train line occur on routes that service the industrial district near the old waterfront, an area of interest.
+
+**ASSESSMENT:**
+The clustering of these data anomalies in temporal proximity to witness reports is statistically notable. While individually each gap could be attributed to minor technical glitches or record-keeping errors, their collective pattern and geographic relevance warrant further scrutiny. Recommended actions: 1) Obtain raw data tapes from the transit authority's physical archive for the gap periods, as our digital pull may be incomplete. 2) Cross-reference with independent toll road transponder logs for vehicle movements in the affected grids. 3) Interview transit personnel scheduled for the relevant shifts, focusing on the unexplained "maintenance reboot" on 06 OCT.
+
+--- END DOCUMENT ---

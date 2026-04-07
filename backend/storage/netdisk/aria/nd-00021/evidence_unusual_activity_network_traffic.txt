@@ -1,0 +1,28 @@
+INCIDENT REPORT
+Ref: IR-2004-08-23-01
+Classification: INTERNAL USE ONLY
+Date: 23 August 2004
+Author: J. Carson, Senior Network Analyst
+Department: IT Security & Infrastructure
+
+TITLE: Evidence of Unusual Activity - Network Traffic Anomalies
+
+1. TIMESTAMPED OBSERVATIONS:
+
+- 2004-08-22, 03:14 UTC: Primary border router logs show a spike in outbound TCP traffic on port 443, originating from internal IP 192.168.4.12 (hostname: dev-server-03). Volume measured at 1.2 Gbps over a 90-second window, exceeding baseline by approximately 800%.
+- 2004-08-22, 03:16 UTC: Intrusion Detection System (Snort v2.1) triggered multiple alerts (SID: 2004, 2105) indicating potential encrypted tunnel activity and signature mismatch in SSL handshakes.
+- 2004-08-22, 03:20 UTC: Traffic subsided to baseline levels. Subsequent packet capture (10-minute sample) initiated. Analysis revealed repetitive, patterned payloads within the encrypted streams, inconsistent with standard HTTPS web traffic.
+- 2004-08-22, 08:00 UTC: Routine morning audit flagged dev-server-03 for anomalous system resource usage (CPU sustained at 95% between 03:10 and 03:22 UTC). No scheduled jobs or legitimate user activity logged during that period.
+- 2004-08-22, 14:30 UTC: Forensic disk image of dev-server-03 acquired. Preliminary scan identified several unfamiliar, timestamped temporary files in /tmp, all created within the incident window, later auto-deleted.
+
+2. ASSESSMENT:
+
+The observed activity indicates a high-volume, encrypted data exfiltration attempt from a development environment server. The timing (off-peak hours), the specific targeting of a server with weaker access controls compared to production systems, and the use of standard HTTPS port to blend with normal traffic suggest a coordinated, external compromise. The presence of repetitive patterns within the encrypted channel may point to a command-and-control protocol or a structured data transfer. While the immediate data loss is unquantified due to encryption, the breach of the development server poses a significant risk, as it often contains code repositories and internal configuration data that could facilitate further attacks. Immediate containment actions have been taken, including isolating dev-server-03 from the network and resetting all associated credentials. A full root-cause analysis is pending.
+
+3. ACTION ITEMS:
+- Deep forensic analysis of dev-server-03 disk image.
+- Review of all access logs for dev-server-03 for the preceding 30 days.
+- Update of firewall rules to enforce stricter egress filtering on development subnets.
+- Escalation to the Incident Response Team for threat intelligence correlation.
+
+END OF REPORT.

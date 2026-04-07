@@ -1,0 +1,28 @@
+**INCIDENT REPORT: DOCKSIDE TRANSFER RECORDS DISCREPANCY**
+**Report ID:** DTR-2023-04-12-01
+**Date Filed:** April 12, 2023, 08:15 EST
+**Prepared By:** Archivist J. Corbin, Logistics Support Division
+**Incident Date:** April 11-12, 2023 (Overnight)
+**Location:** North Terminal, Berths 7-9, Portside Docks
+
+**1. SUMMARY OF DISCREPANCY**
+A routine morning audit of the overnight digital transfer manifests revealed a significant mismatch between the electronic records in the CargoLog v3.2 system and the preliminary paper tally sheets submitted by the night shift foreman. The discrepancy pertains to the inbound transfer of Consolidated Container Unit (CCU) #77842, scheduled for offloading from the MV *Aurora Star* between 22:00 and 02:00. The system logs indicate a completed transfer of 48 standard units, while the foreman's annotated sheet records 52 units physically present on the dock, with four units lacking corresponding digital scan-in confirmation.
+
+**2. TIMELINE AND OBSERVATIONS**
+- **21:45, Apr 11:** Night shift crew (Team Gamma) begins pre-operation checks. CargoLog system operational; network ping tests normal.
+- **22:10:** MV *Aurora Star* docks at Berth 8. Initial scans of ten CCUs logged successfully. Weather conditions: clear, light wind.
+- **23:30:** Foreman R. Vasquez reports a brief handheld scanner malfunction (Unit #SC-09) during the mid-operation batch. Issue reportedly resolved by switching to backup unit (#SC-12) after approximately five minutes. Logs show a continuous data stream, but with a noted gap in granular scan timestamps for a fifteen-minute window.
+- **01:15:** Transfer operation declared complete by Vasquez. Final paper tally sheet signed, noting 52 units.
+- **06:00, Apr 12:** Automated daily audit flag raised by system due to count mismatch. Physical verification initiated.
+- **07:30:** Security visual check confirms 52 CCUs in the designated holding yard (Grid Sector D-7). Four units (temporary IDs noted as Y-77842-49 through Y-77842-52) lack attached digital barcode scan stickers and do not appear in the CargoLog transfer completion report.
+
+**3. ASSESSMENT**
+The primary discrepancy of four unscanned units appears to be directly correlated with the handheld scanner malfunction event at approximately 23:30. The seamless system logs during that period suggest the backup scanner may not have been properly synced to the specific transfer job code, causing scans to be recorded in a generic buffer not associated with CCU #77842's manifest. This points to a procedural failure in verifying system sync after equipment substitution, rather than malicious activity or loss of goods. The physical inventory is secure and accounted for, but the digital record is incomplete, creating a chain-of-custody gap for the four units in question. Immediate data reconciliation and manual entry with security oversight are required to close the record.
+
+**4. ACTION ITEMS**
+- Isolate and review raw scan data logs from scanner #SC-12 for the relevant time window.
+- Manually update CargoLog with verified unit serial numbers for the four unmatched CCUs, pending supervisor approval.
+- Issue a procedural reminder to all shift foremen regarding mandatory system verification after any equipment changeover.
+- Flag CCUs Y-77842-49 through Y-77842-52 for priority re-tagging with official barcodes.
+
+**END OF REPORT**

@@ -1,0 +1,43 @@
+Case Evidence Snapshot
+Internal Reference: IR-2004-07-22-α
+Date of Initial Log: 22 July 2004
+Time: 14:30 PST
+Archivist: J. Carson
+Case Designation: Pinnacle Data Breach Inquiry
+
+--- EVIDENCE LOG ROUND 1 ---
+
+Item 001: Physical Media
+- Description: One (1) Dell OptiPlex desktop workstation, serial number GX270-8J4P9L3. Recovered from cubicle 4B, Marketing Department.
+- Condition: Tower casing showed no signs of forced entry. Drive bay seals intact. Dust accumulation suggests prolonged stationary operation.
+- Initial Action: Unit powered down at scene via rear switch. Photographed in situ (Ref: Photos 22-28). Bagged and tagged (Tag #P-114) for transport to Secure Lab A. Chain of custody initiated.
+- Timestamp of Seizure: 22 July 2004, 11:15 PST.
+
+Item 002: Peripheral Device
+- Description: One (1) generic USB flash drive, 256MB capacity, blue plastic casing. Found on floor adjacent to the aforementioned workstation.
+- Condition: No visible labeling or corporate asset tag. Minor scuff marks on casing.
+- Initial Action: Placed in anti-static evidence bag (Tag #P-115). No attempt made to mount or read contents pending forensic imaging protocol.
+- Timestamp of Seizure: 22 July 2004, 11:20 PST.
+
+Item 003: Documentary Evidence
+- Description: Three (3) pages of dot-matrix printer output, recovered from the waste bin near cubicle 4B.
+- Condition: Pages are crumpled but legible. Content appears to be fragments of database SQL queries and what may be internal email addresses.
+- Initial Action: Pages smoothed, photographed (Ref: Photos 29-31), and placed in clear plastic sleeve (Tag #D-041). Contents transcribed preliminarily; transcription filed separately (See Doc. T-044).
+- Timestamp of Recovery: 22 July 2004, 11:45 PST.
+
+Item 004: System Log Excerpts (Remote Capture)
+- Description: Printed excerpts from central firewall logs for IP range assigned to Marketing Department, dated 18-21 July 2004.
+- Condition: Logs show multiple anomalous outbound connection attempts to an external IP (92.118.74.211) registered in a non-cooperative jurisdiction. Attempts coincide with after-hours periods.
+- Initial Action: Logs verified with Network Operations for integrity. Hard copy filed (Tag #D-042). Digital source logs have been isolated and write-protected on the central syslog server.
+- Timestamp of Log Generation: 22 July 2004, 09:00 PST (provided by NetOps).
+
+--- PRELIMINARY ASSESSMENT ---
+The physical evidence suggests the potential point of initial compromise is local to cubicle 4B. The presence of an untagged USB drive in proximity to the workstation is of high concern, indicating possible use of removable media. The recovered printed queries suggest the individual may have been testing data extraction methods. The firewall logs corroborate suspicious activity originating from this network segment. All items are preserved for detailed forensic examination. Priority is on the forensic imaging of the hard drive from Item 001 and the secure analysis of the USB drive from Item 002. The correlation between the SQL fragments and the target of the outbound connections will be a key investigative thread.
+
+--- NEXT ACTIONS ---
+1. Schedule forensic duplication of hard drive from Item 001 (ETA: 24 July).
+2. Submit Item 002 for secure, write-blocked analysis in isolated environment.
+3. Liaise with NetOps to obtain full packet capture data for the target external IP, if available.
+4. Cross-reference recovered email addresses with active directory logs for after-hours access.
+
+[End of Log]

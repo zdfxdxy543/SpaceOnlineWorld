@@ -1,0 +1,26 @@
+TIMELINE NOTE
+Classification: Internal
+Document ID: TL-2004-08-19-MAINT
+Author: J. Armitage, Document Archivist
+Date: 19 August 2004
+Subject: Maintenance Logs Comparison – Scheduled Maintenance vs. Transit Log Gaps
+
+---
+
+1. TIMELINE OF EVENTS & OBSERVATIONS:
+
+- 12 July 2004, 14:00: Scheduled system diagnostics for Server Cluster A (Bay 3). Log entry #4421 confirms start time. Expected duration: 2 hours. Corresponding transit log for asset transfer from Storage Vault 7 shows a gap from 13:58 to 16:05. No authorized personnel badges logged at the interfloor elevator during this period.
+
+- 25 July 2004, 03:00: Routine HVAC maintenance in Sub-level B. Work order #8834 signed off by technician R. Davies. Security camera feeds for Corridor B2 are listed as 'undergoing calibration' from 02:45 to 04:30 per maintenance schedule. However, the main transit log for material shipments to Lab Wing shows an unscheduled entry at 03:22—a cargo lift movement from Sub-level B to Level 2, with no accompanying work order or manifest on file.
+
+- 5 August 2004, 10:00-15:00: Planned power grid stabilization test across Sectors 4 and 5. Multiple system logs confirm controlled outages. During this window, the electronic access log for the Restricted Archives wing (Room A-17) registers three consecutive failed badge-swipe attempts at 11:47, followed by a successful entry using a master override key at 11:49. The individual associated with the override key, Dr. A. Chen, was recorded as being present at a cross-campus seminar at that time.
+
+- 15 August 2004, 20:00: Scheduled backup generator test. Facility engineering log #9912 notes a 'minor voltage fluctuation' at 20:17. At precisely 20:18, the transit log for the underground pneumatic dispatch system shows a 47-second interruption in logging. The system auto-recovered, but the gap coincides with a dispatch sent from the Chemistry Lab to the Incinerator chute. The contents of that dispatch are not listed in the accompanying digital manifest.
+
+2. ASSESSMENT:
+
+Four instances between 12 July and 15 August 2004 demonstrate a concerning correlation between scheduled maintenance activities and gaps or anomalies in the facility's transit and access logs. The patterns suggest that routine maintenance windows may be exploited to mask unauthorized movements or transactions. The use of master overrides during outages, coupled with missing manifests, points to either significant procedural failures or deliberate internal subversion. Recommended action: Flag all future maintenance schedules for independent audit and require dual verification for any material transit occurring during these windows. A deeper review of personnel with override privileges during the noted periods is advised.
+
+---
+
+END OF DOCUMENT

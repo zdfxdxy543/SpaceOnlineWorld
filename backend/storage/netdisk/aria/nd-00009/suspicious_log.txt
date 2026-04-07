@@ -1,0 +1,23 @@
+**Suspicious Activity Log**
+**Date:** 05-Nov-2003
+**Compiled by:** J. Petrov, Infrastructure Security Analyst, Level 2
+**Case Ref:** NET-ANOM-2003-114
+**Classification:** INTERNAL USE - EYES ONLY
+
+**Log Entries:**
+
+**Timestamp:** 2003-11-05 01:17:22 UTC
+**Observation:** Anomalous outbound TCP traffic detected from primary database server (hostname: DB01-PROD). Destination IP (87.250.250.242) resolved to a geographical region with no established business relations. Traffic pattern consisted of sustained, encrypted data streams on non-standard port 4444. Volume approximated 2.1 GB over a 23-minute period. No corresponding authorized job or user session was logged on the originating server at this time.
+
+**Timestamp:** 2003-11-05 01:45:55 UTC
+**Observation:** Secondary alert triggered for multiple failed SSH login attempts on the firewall administrative interface (hostname: FW-GATE1). Source IP (212.96.204.18) exhibited behavior consistent with an automated dictionary attack. All attempts were denied by existing ACLs. This activity commenced concurrently with the outbound data stream from DB01-PROD.
+
+**Timestamp:** 2003-11-05 02:08:10 UTC
+**Observation:** Internal DNS server logs show a flurry of reverse lookup queries for a series of sequential internal IP addresses, originating from an engineering workstation (hostname: DEV-WS-12). The user associated with this workstation (ID: rjenkins) was on approved leave. The workstation had been powered down per standard procedure at 18:00 local time on 04-Nov-2003.
+
+**Assessment:**
+The coordinated timing of these events strongly suggests a multi-vector intrusion attempt. The primary data exfiltration from DB01-PROD is of critical concern. The firewall login attempts likely served as a distraction or a secondary access probe. The unauthorized DNS reconnaissance from a powered-down workstation indicates possible compromised credentials and/or the presence of a persistent remote access tool. Immediate actions have been initiated: DB01-PROD has been isolated from the external network, credentials for user 'rjenkins' and all associated service accounts have been revoked, and a full forensic disk image of DEV-WS-12 has been prioritized. This incident has been escalated to the Cyber Incident Response Team (CIRT) for further investigation. Root cause analysis is pending.
+
+**Next Review:** 12-Nov-2003
+**Authorizing Officer:** [Signature on file]
+A. Chen, Director of Information Security

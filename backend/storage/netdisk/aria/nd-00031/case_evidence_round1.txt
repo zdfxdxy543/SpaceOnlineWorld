@@ -1,0 +1,31 @@
+Case Evidence Snapshot
+Internal Archival Record
+Classification: Restricted – Investigation Continuity
+
+Date of Initial Compilation: 2003-11-17
+Archivist ID: A-734
+Case Reference: INV-2003-114
+
+--- EVIDENCE LOG ROUND 1 ---
+
+Timestamp of Primary Scene Arrival: 2003-11-14, 14:30 EST
+Location: Unit 4B, 2087 Harbor View Apartments, Waterfront District.
+Responding Officers: Det. Miller, Officer Chen.
+
+Evidence Items Catalogued:
+1. Item #114-A: Personal desktop computer (Dell Dimension, model 4550). Seized from the desk in the main living area. Hard drive was imaged on-site at 15:45 EST using Forensic Toolkit v3.0. Preliminary visual inspection showed an active internet connection and multiple unsaved text documents open in a word processor.
+2. Item #114-B: Cellular telephone (Nokia 3390, silver). Recovered from the kitchen counter. Battery was at 23% charge. Device was placed in a Faraday bag to preserve potential network data. Logs show repeated calls to a number registered to a 'K. Delaney' in the 72 hours prior to the incident.
+3. Item #114-C: Paper notebook (black, spiral-bound, approx. 100 pages). Found in a drawer of the bedside table. Pages 45-67 contain handwritten lists of names, monetary figures, and abbreviated dates. These pages have been flagged for handwriting analysis and cross-referencing with financial records.
+4. Item #114-D: External hard drive (Maxtor, 80GB, USB 1.1). Located inside a locked filing cabinet in the bedroom. The cabinet was opened with consent from the property manager. The drive was secured without being powered on. It will be subject to a full forensic examination at the lab.
+5. Item #114-E: Physical correspondence. A single envelope, postmarked 2003-11-10, addressed to the occupant. The letter inside is a typed demand notice from a firm called 'Granite Holdings, LLC.' The letterhead appears professionally printed.
+
+Observations:
+The scene was orderly with no immediate signs of forced entry or struggle. The computer was the only electronic device left powered on. The notebook (Item #114-C) was found in a location suggesting deliberate concealment, yet the filing cabinet containing the hard drive was locked with a key readily available on the occupant's keyring. This discrepancy in security protocols is noted. The cellular telephone showed a pattern of late-night calls culminating in a final outgoing call at approximately 01:17 EST on 2003-11-14, roughly thirteen hours before our arrival.
+
+Preliminary Assessment:
+The collected evidence suggests the subject was engaged in active communication and data management immediately prior to the incident. The concurrent existence of a concealed handwritten ledger and a secured digital storage device points to a methodical, dual-record system. The demand letter introduces a potential financial motive. The lack of overt disturbance suggests the subject may have been expecting a visitor or was engaged in a routine interaction that escalated. Priority for the next round of analysis is the forensic imaging of the external hard drive (#114-D) and a full parse of the cellular call logs and SMS data. The 'K. Delaney' contact requires immediate follow-up.
+
+--- END OF SNAPSHOT ---
+
+Next Review Scheduled: 2003-11-24
+Archivist Signature: [Electronic Stamp Applied]

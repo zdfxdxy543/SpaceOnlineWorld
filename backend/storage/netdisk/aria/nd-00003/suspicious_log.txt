@@ -1,0 +1,27 @@
+Suspicious Activity Log - Town Square Observations
+Date Range: [Redacted] to [Redacted]
+
+--- Entry 1 ---
+Date: [Redacted], 03:47
+Observation: Unmarked vehicle (dark sedan, no plates) idled near central fountain for 27 minutes. Single occupant observed using handheld device, possibly scanning or transmitting. Vehicle departed when patrol unit approached.
+
+--- Entry 2 ---
+Date: [Redacted], 14:22
+Observation: Individual in gray hoodie placed small object (approx 5x5cm) beneath bench #4. Object retrieved by different individual 45 minutes later. Unable to identify contents.
+
+--- Entry 3 ---
+Date: [Redacted], 21:15
+Observation: Three individuals engaged in heated discussion near memorial statue. Conversation ceased abruptly upon noticing observer. Subjects dispersed in separate directions.
+
+--- Entry 4 ---
+Date: [Redacted], 11:08
+Observation: Repeated signal interference detected on local surveillance frequency (Band C) lasting 12 minutes. Source triangulated to general square area. No visual confirmation of transmitter.
+
+--- Entry 5 ---
+Date: [Redacted], 19:30
+Observation: Package exchange at trash receptacle #7. Package dimensions: 30x20x10cm. Both parties departed immediately after exchange. Package status: unknown.
+
+--- Notes ---
+All times approximate. Log maintained per standard observation protocol. Recommend increased patrol presence and review of archived surveillance footage for corresponding timestamps.
+
+[End of Log]

@@ -1,0 +1,67 @@
+TIMELINE NOTE
+Classification: Internal Use Only
+Subject: Anomalous Signals Detected in Vicinity of Station Theta
+Document ID: SIG-LOG-20250415
+Author: Archivist J. Varma
+Date: 15 April 2005
+
+---
+
+Preamble: This document consolidates logs from primary monitoring array (Array Delta-7) concerning electromagnetic anomalies detected within a 50km radius of Station Theta. All times are in Coordinated Universal Time (UTC).
+
+---
+
+CHRONOLOGICAL LOG ENTRIES:
+
+**Entry 1**
+Timestamp: 2005-04-14 22:17:03 UTC
+Frequency: 1420.405 MHz (Hydrogen Line)
+Bandwidth: Extremely narrow (<1 Hz).
+Duration: 47 seconds.
+Signal Strength: Faint but clear, S/N ratio of 8.4.
+Observations: Signal exhibited a non-random, pulsed structure. Pulse intervals followed a repeating pattern of prime numbers (intervals of 2, 3, 5, 7, 11 seconds). Modulation atypical for natural astrophysical sources in this band. No corresponding IFR or civilian transponder traffic logged.
+
+**Entry 2**
+Timestamp: 2005-04-15 01:48:22 UTC
+Frequency: 327.0 MHz (Deuterium Hyperfine Line)
+Bandwidth: Approximately 5 Hz.
+Duration: 12 seconds.
+Signal Strength: Weak, S/N ratio of 3.1.
+Observations: Burst of wide-band noise superimposed on the narrow carrier. Pattern suggests possible data packet 'header' but demodulation attempts yielded no known protocols. Signal cut off abruptly. Cross-reference with seismic monitors showed no local activity.
+
+**Entry 3**
+Timestamp: 2005-04-15 04:05:11 UTC
+Frequency: Variable, sweeping from 800 MHz to 1.2 GHz.
+Bandwidth: Broad (~400 MHz).
+Duration: 3 minutes, 18 seconds.
+Signal Strength: Moderate and increasing, peaked at S/N 15.1.
+Observations: Unauthorized frequency agile transmission. Sweep pattern was logarithmic, not linear. Signal contained embedded harmonic structures that could not be attributed to equipment malfunction. Attempted triangulation failed; source appeared to move or was deliberately obscuring its point of origin. Signal terminated at 04:08:29 UTC.
+
+**Entry 4**
+Timestamp: 2005-04-15 05:55:00 UTC
+Frequency: 14.2 kHz (Extremely Low Frequency - ELF)
+Bandwidth: <0.1 Hz.
+Duration: Ongoing (intermittent) as of log compilation.
+Signal Strength: Very faint, requires signal averaging to detect.
+Observations: Persistent, ultra-low frequency hum. Penetrates geological layers, suggesting a deep or subterranean origin. Pattern is a steady, unmodulated carrier. This is highly anomalous for the local environment and is not consistent with known natural geomagnetic phenomena.
+
+---
+
+ASSESSMENT SECTION:
+
+1. **Origin Hypotheses:**
+   - Non-terrestrial or advanced terrestrial technology cannot be ruled out. The prime-number patterning in Entry 1 is a known theoretical signature of artificial construction.
+   - The ELF signal (Entry 4) is particularly concerning due to its propagation characteristics, potentially indicating a subsurface source or a very large, distant transmitter.
+   - Possibility of sophisticated electronic warfare test or unauthorized R&D activity in the prohibited zone must be investigated.
+
+2. **Recommendations:**
+   - Increase monitoring to 24/7 dedicated watch on affected bands.
+   - Deploy mobile direction-finding units to perimeter grids 7 and 9.
+   - Request satellite surveillance overlay for thermal/EM anomalies during signal events.
+   - Flag for review by Station Chief and Xenophysics Advisory Panel.
+
+3. **Next Log Update:** Scheduled for 18 April 2005, or upon detection of a Category 2 or higher anomaly.
+
+---
+
+END OF LOG

@@ -1,0 +1,22 @@
+**CASE EVIDENCE SNAPSHOT - ROUND 1**
+**Case ID:** 04-7892-A
+**Prepared By:** Archivist J. Voss
+**Date:** 2004-11-17
+**Timestamp of Evidence Collection:** 2004-11-16, 14:30 - 17:45 EST
+**Location of Collection:** Primary scene, 451 Rutherford Drive, Warehouse District, Sector 7.
+
+**EVIDENCE LOG SUMMARY:**
+- **Item EV-001:** One (1) personal digital assistant (PDA), make Palm Tungsten T3. Recovered from northwest corner of main warehouse floor, under a stack of empty cardboard containers. Device was powered on but in a battery-saver sleep mode. Screen displayed a calendar entry for November 15 titled "Final Transfer." Device has been placed in a static-shield bag for transport to digital forensics.
+- **Item EV-002:** Set of partial latent fingerprints (approx. six readable prints) lifted from the exterior handle of a secondary office door (Room B). Door was found ajar. Prints do not match those of the on-site security personnel on file. Photographs taken of lift locations.
+- **Item EV-003:** Financial records fragment. One printed sheet, partially burned, recovered from a metal waste bin in Room B. Legible portions show wire transfer codes and a beneficiary name fragment "...ovic Holdings." Document is heavily singed; forensic analysis for accelerants requested.
+- **Item EV-004:** Audio recording. One microcassette tape found in a desk drawer in the main office. Label reads "Log #4 - October." Tape was rewound to the beginning. Preliminary audio check indicates a male voice discussing shipment schedules and mentioning "the new route via Pier 12." Tape submitted for enhanced audio analysis and voiceprint matching.
+- **Item EV-005:** Physical trace evidence. Fibers (blue, synthetic) collected from a torn section of fencing at the rear loading bay. Fibers appear consistent with heavy-duty workwear. Samples sent to the lab for material composition and possible manufacturer identification.
+
+**OBSERVATIONS:**
+Collection was conducted under a limited initial warrant. The scene showed signs of recent, hurried activity: several desks were cleared, but the waste bin contained freshly burned material. The PDA's discovery location suggests it may have been dropped or concealed during a rapid exit. The disparity between the cleaned desks and the overlooked PDA and tape is notable. The partial fingerprints on the secondary door, a less frequented entry, may belong to an individual not regularly authorized for that space.
+
+**ASSESSMENT (Preliminary):**
+The evidence points to an organized operation that was interrupted or chose to vacate the premises in a planned but accelerated manner. The combination of digital data (PDA), financial traces, and logistical audio recording suggests a commercial or smuggling context, likely tied to maritime logistics (Pier 12). The destruction of specific documents indicates an awareness of operational security. Priority should be given to analyzing the digital device and enhancing the audio tape, as they may contain direct leads to timelines, identities, and routes. The physical evidence (prints, fibers) will be crucial for corroborating presence and method of entry/exit.
+
+**NEXT ROUND FOCUS:** Digital forensic report on EV-001; enhanced transcript of EV-004; lab results on fiber composition and fingerprint analysis.
+**ARCHIVAL NOTE:** This snapshot is for internal continuity. All original evidence is logged in the central property system under Case 04-7892-A.
